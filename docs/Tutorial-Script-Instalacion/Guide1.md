@@ -1,8 +1,8 @@
-# Manual para Script de Instalación
+# Guia instalacion Docker+Gitlab+SSL+SSH
 
 `Docker | GitLab | Opción SSL | Opción SSH`
 
-###### Facturador PRO4
+###### Facturador PRO 4
 
 ### Descripción
 
@@ -23,7 +23,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
     servidor)](https://docs.google.com/document/d/1PmQejvNd_dkXVm8DPUYlQTag0wvES46tMpxX3MPhkNY/edit#heading=h.nezjsyganf1w)
 
     [guía para acceder con Winscp (gestión de archivos con aplicación de
-    escritorio)](gu%C3%ADa%20para%20acceder%20con%20Winscp%20%28gesti%C3%B3n%20de%20archivos%20con%20aplicaci%C3%B3n%20de%20escritorio%29)
+    escritorio)](https://docs.google.com/document/d/1Xpri2102N4b5C-dG-FVPXW5ZWjEz5S4iDjpvl7Zwq2E/edit#heading=h.nezjsyganf1w)
 
 3.  Si es posible configurar su dominio apuntando a su instancia para
     que al finalizar la instalación se encuentre disponible el
@@ -31,7 +31,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
     y CNAME el valor \* (asterisco) para que se tomen los subdominios
     registrados por la herramienta.
 
-    ![dns imagen](/img/guide-script/guide-script-dns.png)
+    ![dns imagen](/img/guide1/guide1-dns.png)
 
 4.  En caso de contar con servicios instalados en su instancia como
     mysql, apache o nginx, debe detenerlos, ya que estos ocupan los
@@ -92,7 +92,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
 
     2. si selecciona **SÍ**, deberá contestar las siguientes preguntas con “y”, son 2 en total, seguidamente se le ofrecerá un código que debe añadir en un récord tipo TXT en su dominio quedando como **\_acme-challenge.example.com** o simplemente **\_acme-challenge** dependerá de su proveedor.
 
-    ![ejemplo imagen](/img/guide-script/guide-script-ejemplo.png)
+    ![ejemplo imagen](/img/guide1/guide1-ejemplo.png)
 
     3. para continuar presione **enter**, luego deberá repetir las acciones para añadir un segundo código y habrá finalizado la configuración, si el proceso es exitoso la ejecución del script continuará.
 
@@ -106,7 +106,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
 
     2. de seleccionar SÍ, al final del despliegue se le dará un extracto de texto que debe añadir a su configuración de gitlab
 
-    ![key imagen](/img/guide-script/guide-script-key.png)
+    ![key imagen](/img/guide1/guide1-key.png)
 
 8.  Finalizado el script y dependiendo de sus selecciones anteriores, se le entregará varios datos que debe guardar, como;
 
