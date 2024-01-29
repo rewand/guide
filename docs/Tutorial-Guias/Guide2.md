@@ -2,13 +2,13 @@
 
 `Docker | GitLab | Opción SSL`
 
-###### Facturador PRO 1 | PRO 2
+> Facturador PRO 1 | PRO 2
 
-### Descripción
+## Descripción
 
 Hemos elaborado un script para uso en instancias Linux, este es un archivo .sh que actualiza el sistema, instala las herramientas, sus dependencias, configura un certificado SSL renovable cada 90 días que debe ser confirmado en el proceso con su dominio y realiza todas las configuraciones previas, dejando el aplicativo listo para probar en menos de 20 minutos , su ejecución es muy sencilla
 
-### Requisitos previos
+## Requisitos previos
 
 1.  Tener acceso a su servidor, vps, máquina virtual o local via SSH, en las instalaciones que realizamos para AWS o Google Cloud, hacemos entrega del usuario, la IP del servidor y la clave ssh que puede ser un archivo .ppk o .pem.
 
@@ -22,7 +22,7 @@ Hemos elaborado un script para uso en instancias Linux, este es un archivo .sh q
 
 5.  En caso de contar con servicios instalados en su instancia como mysql, apache o nginx, debe detenerlos, ya que estos ocupan los puertos que pasarán a usarse con el aplicativo y los contenedores de Docker.
 
-### Pasos
+## Pasos
 
 1.  Acceder a su instancia vía SSH.
 2.  Loguearse como super usuario
@@ -103,7 +103,7 @@ Una vez finalizado, puede proseguir con el manual de pruebas o demás documentac
 
 > PRO2: https://gitlab.com/rash07/facturadorpro2
 
-### Recomendaciones
+## Recomendaciones
 
 - Luego de instalar el facturador puede cambiar algunos parámetros en el archivo .env como:
 

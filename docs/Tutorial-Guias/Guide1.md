@@ -2,43 +2,29 @@
 
 `Docker | GitLab | Opción SSL | Opción SSH`
 
-###### Facturador PRO 4
+> Facturador PRO 4
 
-### Descripción
+## Descripción
 
 Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior, este es un archivo que actualiza el sistema, instala las herramientas, sus dependencias y realiza todas las configuraciones previas, dejando el aplicativo listo para probar en menos de 20 minutos (siempre y cuando el dominio ya esté configurado hacia la instancia), su ejecución es muy sencilla.
 
-### Requisitos previos
+## Requisitos previos
 
-1.  Tener acceso a su servidor, vps, máquina virtual o local via SSH, en
-    las instalaciones que realizamos para AWS o Google Cloud, hacemos
-    entrega del usuario, la IP del servidor y la clave ssh que puede ser
-    un archivo .ppk o .pem, recuerde almacenarlas en su equipo local.
-2.  Tener instalado una versión de ssh en su máquina para conectarse de
-    manera remota, puede utilizar putty, filezilla o una consola
-    terminal. para mayor información sobre el acceso SSH visite los
-    siguientes manuales:
+1.  Tener acceso a su servidor, vps, máquina virtual o local via SSH, en las instalaciones que realizamos para AWS o Google Cloud, hacemos entrega del usuario, la IP del servidor y la clave ssh que puede ser un archivo .ppk o .pem, recuerde almacenarlas en su equipo local.
 
-    [Guía para acceder con Putty (gestión de
-    servidor)](https://docs.google.com/document/d/1PmQejvNd_dkXVm8DPUYlQTag0wvES46tMpxX3MPhkNY/edit#heading=h.nezjsyganf1w)
+2.  Tener instalado una versión de ssh en su máquina para conectarse de manera remota, puede utilizar putty, filezilla o una consola terminal. para mayor información sobre el acceso SSH visite los siguientes manuales:
 
-    [Guía para acceder con Winscp (gestión de archivos con aplicación de
-    escritorio)](https://docs.google.com/document/d/1Xpri2102N4b5C-dG-FVPXW5ZWjEz5S4iDjpvl7Zwq2E/edit#heading=h.nezjsyganf1w)
+    [Guía para acceder con Putty (gestión de servidor)](https://docs.google.com/document/d/1PmQejvNd_dkXVm8DPUYlQTag0wvES46tMpxX3MPhkNY/edit#heading=h.nezjsyganf1w)
 
-3.  Si es posible configurar su dominio apuntando a su instancia para
-    que al finalizar la instalación se encuentre disponible el
-    aplicativo. Edite los récords A y CNAME donde A debe contener su IP
-    y CNAME el valor \* (asterisco) para que se tomen los subdominios
-    registrados por la herramienta.
+    [Guía para acceder con Winscp (gestión de archivos con aplicación de escritorio)](https://docs.google.com/document/d/1Xpri2102N4b5C-dG-FVPXW5ZWjEz5S4iDjpvl7Zwq2E/edit#heading=h.nezjsyganf1w)
 
-    ![dns imagen](/img/guide1/guide1-dns.png)
+3.  Si es posible configurar su dominio apuntando a su instancia para que al finalizar la instalación se encuentre disponible el aplicativo. Edite los récords A y CNAME donde A debe contener su IP y CNAME el valor \* (asterisco) para que se tomen los subdominios registrados por la herramienta.
 
-4.  En caso de contar con servicios instalados en su instancia como
-    mysql, apache o nginx, debe detenerlos, ya que estos ocupan los
-    puertos que pasarán a usar el aplicativo con los contenedores de
-    Docker.
+![dns imagen](/img/guide1/guide1-dns.png)
 
-### Pasos
+4.  En caso de contar con servicios instalados en su instancia como mysql, apache o nginx, debe detenerlos, ya que estos ocupan los puertos que pasarán a usar el aplicativo con los contenedores de Docker.
+
+## Pasos
 
 1.  Acceder a su instancia vía SSH.
 2.  Loguearse como super usuario
@@ -65,8 +51,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
     chmod +x install.sh
 ```
 
-6.  El comando a utilizar para iniciar el despliegue requiere de un
-    parámetro principalmente:
+6.  El comando a utilizar para iniciar el despliegue requiere de un parámetro principalmente:
 
     ```bash
         ./install.sh [dominio]
@@ -120,7 +105,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
 
         >e. Clave SSH para añadir a gitlab (obligatorio para quienes seleccionan la instalación de SSH)
 
-### Enlaces de interés
+## Enlaces de interés
 
 - [Actualización de
   SSL](https://gitlab.com/b.mendoza/facturadorpro3/-/snippets/1955372)

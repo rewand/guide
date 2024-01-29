@@ -2,7 +2,7 @@
 
 `Docker | Linux | SSL externo`
 
-### Pasos
+## Pasos
 
 - Para instalar debe ejecutar el script evitando instalar el SSL, le será consultado en el proceso y deberá ingresar "n"
 
@@ -20,14 +20,14 @@
 
 Dentro del editor ubicar los parámetros y cambiarlos
 
-#### Antes
+### Antes
 
 ```bash
     APP_URL=http://${APP_URL_BASE}
     FORCE_HTTPS=false
 ```
 
-#### Después
+### Después
 
 ```bash
     APP_URL=https://${APP_URL_BASE}

@@ -2,11 +2,11 @@
 
 `Linux | Valet`
 
-### Descripción
+## Descripción
 
 Esta guía proporciona una secuencia de pasos detallados para instalar y configurar un servidor local Linux para un proyecto Laravel, junto con la configuración de la base de datos y otras herramientas necesarias. Asegúrate de seguir cada paso con cuidado y de ajustar las configuraciones según tus necesidades específicas.
 
-### Requisitos previos
+## Requisitos previos
 
 Si desea implementar sobre un servidor local Linux “desde cero” debe:
 
@@ -18,7 +18,7 @@ Si desea implementar sobre un servidor local Linux “desde cero” debe:
 
 4.  Instalar [Git](https://git-scm.com/), [Curl](https://curl.se/).
 
-### Pasos
+## Pasos
 
 :::tip[tip]
 Ubuntu no cuenta con la versión 7.2 de php de manera nativa por lo que se debe seguir un par de pasos para agregar un repositorio y luego proceder con la instalación, ellos son:
