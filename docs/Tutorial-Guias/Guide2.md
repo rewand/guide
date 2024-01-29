@@ -79,10 +79,11 @@ chmod +x install.sh
 
 10. Una vez ejecutado el comando se iniciará un proceso donde debe ir aceptando las preguntas y que le mostrará en pantalla los valores que debe añadir en los 2 récords tipo TXT de su dominio con nombre
 
-> a. **\_acme-challenge.example.com**
-> b. **\_acme-challenge** (casos como godday y puntope)
+    > a. **\_acme-challenge.example.com**
 
-en la siguiente imagen le muestran el valor como **v703JW**.... debera copiarlo y añadirlo al primer record TXT, seguidamente pulsar enter, se le mostrará en pantalla un segundo valor para el segundo TXT
+    > b. **\_acme-challenge** (casos como godday y puntope)
+
+    En la siguiente imagen le muestran el valor como **v703JW**.... debera copiarlo y añadirlo al primer record TXT, seguidamente pulsar enter, se le mostrará en pantalla un segundo valor para el segundo TXT
 
 ![ejemplo2 imagen](/img/guide2/guide2-ejemplo2.png)
 

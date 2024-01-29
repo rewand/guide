@@ -12,11 +12,11 @@ Si desea implementar sobre un servidor local Linux “desde cero” debe:
 
 1.  Contar con acceso root
 
-2.  Instalar php 7.2 y todas las librerías requeridas por el aplicativo y Laravel
+2.  Instalar [php](https://www.php.net/releases/7_2_0.php) 7.2 y todas las librerías requeridas por el aplicativo y [Laravel](https://laravel.com/)
 
-3.  Instalar Mysql, si lo desea PhpMyAdmin para hacer las primeras pruebas de base de datos
+3.  Instalar [Mysql](https://www.mysql.com/), si lo desea PhpMyAdmin para hacer las primeras pruebas de base de datos
 
-4.  Instalar Git, Curl, Composer
+4.  Instalar [Git](https://git-scm.com/), [Curl](https://curl.se/).
 
 ### Pasos
 

@@ -19,10 +19,10 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
     terminal. para mayor información sobre el acceso SSH visite los
     siguientes manuales:
 
-    [guía para acceder con Putty (gestión de
+    [Guía para acceder con Putty (gestión de
     servidor)](https://docs.google.com/document/d/1PmQejvNd_dkXVm8DPUYlQTag0wvES46tMpxX3MPhkNY/edit#heading=h.nezjsyganf1w)
 
-    [guía para acceder con Winscp (gestión de archivos con aplicación de
+    [Guía para acceder con Winscp (gestión de archivos con aplicación de
     escritorio)](https://docs.google.com/document/d/1Xpri2102N4b5C-dG-FVPXW5ZWjEz5S4iDjpvl7Zwq2E/edit#heading=h.nezjsyganf1w)
 
 3.  Si es posible configurar su dominio apuntando a su instancia para
@@ -80,45 +80,45 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
 
 7.  Una vez ejecutado el comando iniciará el proceso de actualización del sistema, en el proceso se le solicitará:
 
-    a. el usuario y contraseña de GitLab, para que se pueda descargar el proyecto en su instancia
+    a. El usuario y contraseña de GitLab, para que se pueda descargar el proyecto en su instancia
 
-    b. si desea instalar SSL gratuito, tenga en cuenta que este debe ser actualizado cada 90 días, el mensaje será el siguiente:
+    b. Si desea instalar SSL gratuito, tenga en cuenta que este debe ser actualizado cada 90 días, el mensaje será el siguiente:
 
     :::tip[tip]
-    instalar con SSL? (debe tener acceso al panel de su dominio para editar/agregar records TXT). si[s] no[n]
+    Instalar con SSL? (debe tener acceso al panel de su dominio para editar/agregar records TXT). si[s] no[n]
     :::
 
-    1. deberá contestar con “s” o “n” para continuar
+    1. Deberá contestar con “s” o “n” para continuar.
 
-    2. si selecciona **SÍ**, deberá contestar las siguientes preguntas con “y”, son 2 en total, seguidamente se le ofrecerá un código que debe añadir en un récord tipo TXT en su dominio quedando como **\_acme-challenge.example.com** o simplemente **\_acme-challenge** dependerá de su proveedor.
+    2. Si selecciona **SÍ**, deberá contestar las siguientes preguntas con “y”, son 2 en total, seguidamente se le ofrecerá un código que debe añadir en un récord tipo TXT en su dominio quedando como **\_acme-challenge.example.com** o simplemente **\_acme-challenge** dependerá de su proveedor.
 
     ![ejemplo imagen](/img/guide1/guide1-ejemplo.png)
 
-    3. para continuar presione **enter**, luego deberá repetir las acciones para añadir un segundo código y habrá finalizado la configuración, si el proceso es exitoso la ejecución del script continuará.
+    3. Para continuar presione **enter**, luego deberá repetir las acciones para añadir un segundo código y habrá finalizado la configuración, si el proceso es exitoso la ejecución del script continuará.
 
-    c. si desea obtener y gestionar actualizaciones automáticas, deberá disponer de su sesión de gitlab al momento
+    c. Si desea obtener y gestionar actualizaciones automáticas, deberá disponer de su sesión de gitlab al momento
 
     :::tip[tip]
-    configurar clave SSH para actualización automática? (requiere acceso a https://gitlab.com/profile/keys). si[s] no[n]
+    Configurar clave SSH para actualización automática? (requiere acceso a https://gitlab.com/profile/keys). si[s] no[n]
     :::
 
-    1. deberá contestar con “s” o “n” para continuar
+    1. Deberá contestar con “s” o “n” para continuar
 
-    2. de seleccionar SÍ, al final del despliegue se le dará un extracto de texto que debe añadir a su configuración de gitlab
+    2. De seleccionar SÍ, al final del despliegue se le dará un extracto de texto que debe añadir a su configuración de gitlab
 
     ![key imagen](/img/guide1/guide1-key.png)
 
 8.  Finalizado el script y dependiendo de sus selecciones anteriores, se le entregará varios datos que debe guardar, como;
 
-        >a. usuario administrador
+        >a. Usuario administrador
 
-        >b. contraseña para usuario administrador
+        >b. Contraseña para usuario administrador
 
-        >c. url del proyecto
+        >c. URL del proyecto
 
-        >d. ubicación del proyecto dentro del servidor
+        >d. Ubicación del proyecto dentro del servidor
 
-        >e. clave ssh para añadir a gitlab (obligatorio para quienes seleccionan la instalación de SSH)
+        >e. Clave SSH para añadir a gitlab (obligatorio para quienes seleccionan la instalación de SSH)
 
 ### Enlaces de interés
 
