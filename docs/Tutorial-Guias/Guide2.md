@@ -16,7 +16,7 @@ Hemos elaborado un script para uso en instancias Linux, este es un archivo .sh q
 
 3.  Es importante configurar su dominio apuntando a la IP de su instancia para que durante la ejecución del script se valide el certificado SSL y al finalizar la ejecución no tenga errores y todo esté listo para realizar pruebas. Edite los récords A y CNAME donde A debe contener su IP y CNAME el valor \* (asterisco) para que se tomen los subdominios registrados por la herramienta.
 
-    ![dns imagen](/img/guide2/guide2-dns.png)
+    ![dns imagen](/img/guide1/guide1-dns.png)
 
 4.  Durante la ejecución del script deberá almacenar en su dominio dos registros TXT con unos valores que se mostrarán en pantalla, estos registros son validados en directo y no pueden tardar más de 2 minutos en validarse en su dominio
 
