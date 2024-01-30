@@ -55,7 +55,7 @@ Hemos elaborado un script para uso en instancias Linux, este es un archivo .sh q
 
 ---
 
-![ejemplo imagen](/img/guide2/guide2-ejemplo.png)
+![ejemplo imagen](/img/guide2/guide2-ejemplo1.png)
 
 7.  Para salir de editor y guardar puede presionar **“ctrl + x”** seguidamente se le consultará si desea guardar los cambios, confirme con **“y”** y luego **“enter”**.
 
