@@ -20,7 +20,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
 
 3.  Si es posible configurar su dominio apuntando a su instancia para que al finalizar la instalación se encuentre disponible el aplicativo. Edite los récords A y CNAME donde A debe contener su IP y CNAME el valor \* (asterisco) para que se tomen los subdominios registrados por la herramienta.
 
-![dns imagen](/img/guide1/guide1-dns.png)
+![ejemplo1 imagen](/img/guide1/guide1-ejemplo1.png)
 
 4.  En caso de contar con servicios instalados en su instancia como mysql, apache o nginx, debe detenerlos, ya que estos ocupan los puertos que pasarán a usar el aplicativo con los contenedores de Docker.
 
@@ -77,7 +77,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
 
     2. Si selecciona **SÍ**, deberá contestar las siguientes preguntas con “y”, son 2 en total, seguidamente se le ofrecerá un código que debe añadir en un récord tipo TXT en su dominio quedando como **\_acme-challenge.example.com** o simplemente **\_acme-challenge** dependerá de su proveedor.
 
-    ![ejemplo imagen](/img/guide1/guide1-ejemplo.png)
+    ![ejemplo2 imagen](/img/guide1/guide1-ejemplo2.png)
 
     3. Para continuar presione **enter**, luego deberá repetir las acciones para añadir un segundo código y habrá finalizado la configuración, si el proceso es exitoso la ejecución del script continuará.
 
@@ -91,7 +91,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior,
 
     2. De seleccionar SÍ, al final del despliegue se le dará un extracto de texto que debe añadir a su configuración de gitlab
 
-    ![key imagen](/img/guide1/guide1-key.png)
+    ![ejemplo3 imagen](/img/guide1/guide1-ejemplo3.png)
 
 8.  Finalizado el script y dependiendo de sus selecciones anteriores, se le entregará varios datos que debe guardar, como;
 
